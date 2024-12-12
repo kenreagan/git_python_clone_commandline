@@ -1,16 +1,16 @@
 import argparse
 import sys
-from core.repository import Repository
-from core.staging import Staging
-from core.commit import Commit
-from core.history import History
-from core.branch import Branch
-from core.merge import Merge
-from core.diff import Diff
-from core.ignore import IgnoreManager
+from src.core.repository import Repository
+from src.core.staging import Staging
+from src.core.commit import Commit
+from src.core.history import History
+from src.core.branch import Branch
+from src.core.merge import Merge
+from src.core.diff import Diff
+from src.core.ignore import IgnoreManager
 
 def main():
-    parser = argparse.ArgumentParser(description="Distributed Source Control System (DSCS)")
+    parser = argparse.ArgumentParser(description="Distributed Source Control System (DSCS) by Lumuli Ken Reagan")
     subparsers = parser.add_subparsers(dest='command', help='Available commands')
 
     # Init command

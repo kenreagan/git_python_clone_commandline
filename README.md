@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a lightweight, Python-based source control system inspired by Git, providing core version control functionality with a focus on simplicity and educational value.
+This project is a lightweight, Python-based source control system inspired by Git, providing core version control functionality with a focus on simplicity it does not work over the network it however works with the local file system. I worked on the system for presentation for the pesapal challenge Number 0.
 
 ## Features
 
@@ -50,14 +50,9 @@ source-control-system_python/
 
 ### Requirements
 - Python 3.9+
-- Poetry (recommended for dependency management)
 
 ### Setup
 1. Clone the repository
-2. Install dependencies:
-   ```bash
-   poetry install
-   ```
 
 ## Usage
 
